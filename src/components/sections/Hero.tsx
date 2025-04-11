@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="flex  items-center justify-center gap-8 h-screen bg-gradient-to-b from-black to-gray-900 text-white mb-12">
+    <section className="flex  items-center justify-center gap-8 h-screen bg-gradient-to-l from-black to-gray-900 text-white mb-12">
       <div className="max-w-3xl">
         <p className="text-teal-500 font-mono mb-5  animate-fadeIn text-shadow text-xl">
           Hi, my name is
@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
       <div>
         <Image
-          src="/hero1.png"
+          src="/hero3.jpg"
           alt="Hero Image"
           width={500}
           height={500}
